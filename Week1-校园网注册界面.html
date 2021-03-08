@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/
+TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>校园网注册界面</title>
+</head>
+<body>
+<center><h2>校园网注册界面</h2></center>
+<form>
+	<fieldset>
+		<legend>
+			填写个人信息
+		</legend>
+		<center>
+			<tr>
+				<td valign="top">用户名：</td>
+				<td>
+				<input type="text" id="inputUsername" autofocus="true" pattern="^[a-zA-Z0-9]{6,}$">
+				<br>
+					<span style="color: #0B0FDD;font-size: 12px">只允许输入英文和数字，且长度至少为6位</span>
+				</td>
+			</tr>
+			
+			<br>
+			<tr>
+				<td valign="top">电子邮箱：</td>
+				<input type="email" multiple="true" id="inputEmail">
+				
+			</tr>
+			
+			<br>
+			<tr>
+				<td> 学号： </td>
+				<input type="number" multiple="true" id="inputpassword">
+			</tr>
+			
+			<br>
+			<input type="submit" value="注册">
+			<input type="reset" value="重置">
+		</center>
+	</fieldset>
+</form>
+</body>
+</html>
